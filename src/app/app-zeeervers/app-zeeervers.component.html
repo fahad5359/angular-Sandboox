@@ -1,0 +1,9 @@
+
+
+<p>As u can see the server is {{states}}!</p>
+<!--<input type="text" (input)="getValue($event)"> <br>-->
+<input [(ngModel)]="serveraddign">
+<button class="btn btn-primary"[disabled]="!allownce" (click)="servercreation()">add server</button>
+<p *ngIf="hideADddata"> the server is{{serveraddign}}</p>
+<p *ngIf="pragh">if u see this it means that iam visbel</p> <br>
+<button (click)="hiddesho()">press too show</button>
